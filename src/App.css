@@ -1,0 +1,74 @@
+/* stylelint-disable */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1F1F1F;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.widget {
+  border: 1px solid black;
+  width: 600px;
+  display: flex;
+  margin: auto;
+}
+
+.form-control {
+  width: 300px;
+  margin: 10px 3px;
+}
+
+.widget-instrm {
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.widget-info {
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.instrm-list {
+margin: auto;
+display: contents;
+}
+
+.instrm-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.container-wrap {
+display: flex;
+flex-direction: column;
+}
+
+.container-wrap-text {
+  display: flex;
+}
+
+.text-bold {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.text-normal {
+  font-weight: normal;
+}
